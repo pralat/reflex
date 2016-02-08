@@ -11,4 +11,17 @@ The .git directory is quite full with other directories and things for git to wo
 
 
 
+(R) How is the staging area different from the working directory and the repository?
+(R) What value do you think it offers?
+
+So these were added to the file after I added it to the staging area.
+If I make changes to this file - like I am now - will they be taken into the staging area as
+well?
+
+Staging area vs working directory and repository? Depends on the behavior If I add files to the
+staging area are they copied there and now separate from the files in the working directory?
+Or it may be that they are just a list of files to be grouped together into the commit.
+
+
+
 
