@@ -1,0 +1,14 @@
+
+(R) What happens when you initialize a repository? Why do you need to do it?
+
+Git creates a bookkeeping directory called ".git" and tells you that any files
+in the repository are untracked.
+
+If you want to add them, then you need to use git add and later commit to keep
+the changes tracked.
+
+The .git directory is quite full with other directories and things for git to work.
+
+
+
+

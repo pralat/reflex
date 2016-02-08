@@ -1,0 +1,57 @@
+(R) How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+
+It ignored text that didn't change.
+It showed me the '-' and '+' lines that were different, and it was
+easy to scan up/down between the 2 lines to see what had changed.
+
+
+(R) How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Allows you to go back to working versions.
+It allows you to try new ideas to see if something works, if it does great,
+if not, you can go back to an earlier verion.
+
+(R) What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+
+Gives control to the programmer. Programmer understandes logical breakdown so is
+best to decide when to commit.
+However, some people can wait too long to commit changes.
+
+
+(R) Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+
+Logical or functional features may require changing several files in order to 
+implement the feature. e.g. new menu item, will effect menu layout, commands offered
+and then code to implement the command.
+
+
+
+
+(R) How can you use the commands git log and git diff to view the history of files?
+
+You can use log, and read the entire list of changes to the files.
+Or just the last 2,3 or more. Or just the first change.
+You can diff any 2 versions of the file to see what changed.
+There are many ways to use log and diff.
+
+
+
+
+(R) How might using version control make you more confident to make changes that could break something?
+
+
+It allows you to try something, quick and easy. If it doesn't work out, fine.
+
+You can go back to the last known working code. It gives you a <RESET> or <REDO> button.
+
+
+
+
+(R) Now that you have your workspace set up, what do you want to try using Git for?
+
+Develop and share code on github, with friends and open source projects
+
+
