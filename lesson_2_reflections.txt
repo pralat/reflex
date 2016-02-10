@@ -23,5 +23,11 @@ staging area are they copied there and now separate from the files in the workin
 Or it may be that they are just a list of files to be grouped together into the commit.
 
 
+(R) How can you use the staging area to make sure you have one commit per logical change?
+
+You can use git diff --staged to review the changes. That way, in review make sure they are one
+logical change.
+
+
 
 
