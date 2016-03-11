@@ -29,5 +29,39 @@ You can use git diff --staged to review the changes. That way, in review make su
 logical change.
 
 
+(R) What are some situations when branches would be helpful in keeping your history organized?
+How would branches help?
+
+When you need to work on multiple things without getting in the way of each other. I may need to fix
+a bug, or add a new feature, and if I can do this separate from each set of changes then it may be
+easier.
+
+
+(R) How do the diagrams help you visualize the branch structure?
+The diags help layout the log history, sometimes it is easier to see where the relationship between
+commits lie
+
+
+(R) What is the result of merging two branches together?
+ Why do we represent it in the diagram the way we do?
+
+You create 2 parents for the new "commit" that represents the merged branches.
+You move the head/master label to this new point.
+
+Because we preserve all the prior commits for both branches. 
+
+
+(R) What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pro's if you have lots of files, then it is convenient, quick & easy to merge all the files.
+You can use git diff --staged to check the changes.
+
+Con's Doesn't seemm too intelligent, and it highlighed 10+ lines of differences and the only
+change was to make a 3 a 2.
+
+
+
+
+
 
 
