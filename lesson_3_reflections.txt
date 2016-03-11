@@ -1,0 +1,5 @@
+(R) When would you want to use a remote repository rather than keeping all your work local?
+
+You could use your computer at work, or your computer at home, or you laptop and each one 
+could have a local repository. That way, no matter where you are you can still work. Provided though
+the work has been commited so that they (the 3 computers) all agree on the state of the files.
