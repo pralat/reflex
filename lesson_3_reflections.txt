@@ -9,3 +9,15 @@ the work has been commited so that they (the 3 computers) all agree on the state
 There would be trouble/conflict/confusion if it was done automatically. Changes that could lead to conflicts may come and go as multiple people change things that you may be working on. Build may fail. To have things
 change in the middle of you creating a new feature or fixing a bug would give rise to too many problems.
 
+
+(R) Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+forks - are copies of a repository on github. It is "connected" to the original branch, such that the
+original owner can see who forked (copied) their repository. It is easy then for you to submit code back to
+the original repository.
+
+clones - are copies of repositories on the local machine. The origin could be local or remote.
+
+branches - are in the repository and are used to track similar changes. For instance you could create
+a branch in which to a new feature, or a branch for bug fixing. The branches keep changes logically
+grouped.
