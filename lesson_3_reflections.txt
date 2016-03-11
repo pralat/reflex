@@ -3,3 +3,9 @@
 You could use your computer at work, or your computer at home, or you laptop and each one 
 could have a local repository. That way, no matter where you are you can still work. Provided though
 the work has been commited so that they (the 3 computers) all agree on the state of the files.
+
+(R) Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+There would be trouble/conflict/confusion if it was done automatically. Changes that could lead to conflicts may come and go as multiple people change things that you may be working on. Build may fail. To have things
+change in the middle of you creating a new feature or fixing a bug would give rise to too many problems.
+
